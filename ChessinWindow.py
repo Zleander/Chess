@@ -51,11 +51,6 @@ class Chess(QWidget):
                                 (col * (sidelen/4)),
                                 (sidelen/8), (sidelen/8))
 
-
-
-
-
-
 if __name__ == '__main__':
     sidelen = int(input("Please type a desired sidelength for your Chessboard:"))
     app = QApplication(sys.argv)
